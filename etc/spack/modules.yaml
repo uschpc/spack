@@ -1,0 +1,28 @@
+modules:
+  enable:
+    - lmod
+  lmod:
+    core_compilers:
+      - 'gcc@4.8.5'
+    hierarchy:
+      - mpi
+#     - lapack
+    hash_length: 4
+    whitelist:
+      - gcc
+      - intel
+    blacklist:
+      - 'gcc@4.8.5'
+    all:
+      conflict:
+        - '{name}'
+      suffixes:
+        '^mvapich2': mvapich2
+        '^openblas': openblas
+        '^netlib-lapack': netlib
+        '^openmpi': openmpi
+      filter:
+        environment_blacklist: ['CPATH', 'LIBRARY_PATH']
+      environment:
+        set:
+          '{name}_ROOT': '{prefix}'

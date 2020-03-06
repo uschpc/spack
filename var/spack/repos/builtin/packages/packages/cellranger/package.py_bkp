@@ -1,0 +1,20 @@
+from spack import *
+
+
+class Cellranger(Package):
+    """Cell Ranger is a set of analysis pipelines that process Chromium single-cell RNA-seq output to align reads, generate feature-barcode matrices and perform clustering and gene expression analysis."""
+
+    homepage = "https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger"
+    url      = "https://github.com/10XGenomics/cellranger/archive/3.0.2.tar.gz"
+
+    maintainers = ['CeSul']
+
+    version('3.0.2', sha256='4c14edeb0ea28c2770b745f527fb93655dcd002bded6c7085442cf2c9c341b03')
+
+    depends_on('python')
+
+    def edit(self, spec, prefix):
+        # FIXME: Edit the Makefile if necessary
+        # FIXME: If not needed delete this function
+        # makefile = FileFilter('Makefile')
+        # makefile.filter('CC = .*', 'CC = cc')
