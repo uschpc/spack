@@ -1,4 +1,4 @@
-# Copyright 2013-2019 Lawrence Livermore National Security, LLC and other
+# Copyright 2013-2020 Lawrence Livermore National Security, LLC and other
 # Spack Project Developers. See the top-level COPYRIGHT file for details.
 #
 # SPDX-License-Identifier: (Apache-2.0 OR MIT)
@@ -10,9 +10,9 @@ class Libxc(AutotoolsPackage):
     """Libxc is a library of exchange-correlation functionals for
     density-functional theory."""
 
-    homepage = "http://www.tddft.org/programs/octopus/wiki/index.php/Libxc"
-    ##url      = "http://www.tddft.org/programs/octopus/down.php?file=libxc/libxc-2.2.2.tar.gz"
-    url      = "http://www.tddft.org/programs/libxc/down.php?file=4.3.4/libxc-4.3.4.tar.gz" 
+    homepage = "https://tddft.org/programs/libxc/"
+    url      = "https://www.tddft.org/programs/libxc/down.php?file=2.2.2/libxc-2.2.2.tar.gz"
+
     version('4.3.4', sha256='a8ee37ddc5079339854bd313272856c9d41a27802472ee9ae44b58ee9a298337')
     version('4.3.2', sha256='bc159aea2537521998c7fb1199789e1be71e04c4b7758d58282622e347603a6f')
     version('4.2.3', sha256='02e49e9ba7d21d18df17e9e57eae861e6ce05e65e966e1e832475aa09e344256')
@@ -32,6 +32,8 @@ class Libxc(AutotoolsPackage):
                 "down.php?file={0}/libxc-{0}.tar.gz"
                 .format(version))
 
+=======
+>>>>>>> 58d3b577652192347aa7263ef37a658f4938c5f7
     @property
     def libs(self):
         """Libxc can be queried for the following parameters:
@@ -62,7 +64,7 @@ class Libxc(AutotoolsPackage):
             libraries, root=self.prefix, shared=shared, recursive=True
         )
 
-    def setup_environment(self, spack_env, run_env):
+    def setup_build_environment(self, env):
         optflags = '-O2'
         if self.compiler.name == 'intel':
             # Optimizations for the Intel compiler, suggested by CP2K
@@ -89,10 +91,10 @@ class Libxc(AutotoolsPackage):
             #
             optflags += ' -xSSE4.2 -axAVX,CORE-AVX2 -ipo'
             if which('xiar'):
-                spack_env.set('AR', 'xiar')
+                env.set('AR', 'xiar')
 
-        spack_env.append_flags('CFLAGS',  optflags)
-        spack_env.append_flags('FCFLAGS', optflags)
+        env.append_flags('CFLAGS',  optflags)
+        env.append_flags('FCFLAGS', optflags)
 
     def configure_args(self):
         args = ['--enable-shared']
