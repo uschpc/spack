@@ -46,5 +46,5 @@ class RGenomicfeatures(RPackage):
     depends_on('r-biomart@2.17.1:', when='@1.32.2', type=('build', 'run'))
     depends_on('r-biobase', type=('build', 'run'))
     depends_on('r-biobase@2.15.1:', when='@1.32.2', type=('build', 'run'))
-    depends_on('r@3.4.0:3.4.9', when='@1.28.5', type=('build', 'run'))
-    depends_on('r@3.5.0:3.5.9', when='@1.32.2', type=('build', 'run'))
+    #depends_on('r@3.4.0:3.4.9', when='@1.28.5', type=('build', 'run'))
+    #depends_on('r@3.5.0:3.5.9', when='@1.32.2', type=('build', 'run'))

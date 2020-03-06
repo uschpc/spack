@@ -46,4 +46,4 @@ class RGgbio(RPackage):
     depends_on('r-ensembldb', type=('build', 'run'))
     depends_on('r-annotationdbi', type=('build', 'run'))
     depends_on('r-annotationfilter', type=('build', 'run'))
-    depends_on('r@3.4.0:3.4.9', when='@1.24.1')
+    #depends_on('r@3.6.1', when='@1.24.1')

@@ -13,6 +13,7 @@ class RBiocparallel(RPackage):
 
     homepage = "https://bioconductor.org/packages/BiocParallel/"
     git      = "https://git.bioconductor.org/packages/BiocParallel.git"
+    url      = "https://bioconductor.org/packages/release/bioc/src/contrib/BiocParallel_1.20.1.tar.gz"
 
     version('1.14.2', commit='1d5a44960b19e9dbbca04c7290c8c58b0a7fc299')
     version('1.10.1', commit='a76c58cf99fd585ba5ea33065649e68f1afe0a7d')

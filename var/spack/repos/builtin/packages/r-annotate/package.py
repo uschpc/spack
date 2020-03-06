@@ -11,6 +11,7 @@ class RAnnotate(RPackage):
 
     homepage = "https://www.bioconductor.org/packages/annotate/"
     git      = "https://git.bioconductor.org/packages/annotate.git"
+    url      = "https://bioconductor.org/packages/release/bioc/src/contrib/annotate_1.64.0.tar.gz"
 
     version('1.58.0', commit='d1b5dd5feb8793f4f816d9a4aecbebb5ec7df7bc')
     version('1.54.0', commit='860cc5b696795a31b18beaf4869f9c418d74549e')

@@ -23,5 +23,5 @@ class RXvector(RPackage):
     depends_on('r-iranges', type=('build', 'run'))
     depends_on('r-iranges@2.13.16:', when='@0.20.0', type=('build', 'run'))
     depends_on('r-zlibbioc', type=('build', 'run'))
-    depends_on('r@3.4.0:3.4.9', when='@0.16.0', type=('build', 'run'))
-    depends_on('r@3.5.0:3.5.9', when='@0.20.0', type=('build', 'run'))
+#    depends_on('r@3.4.0:3.4.9', when='@0.16.0', type=('build', 'run'))
+#    depends_on('r@3.5.0:3.5.9', when='@0.20.0', type=('build', 'run'))

@@ -16,5 +16,5 @@ class RGenomeinfodbdata(RPackage):
     version('1.1.0', sha256='6efdca22839c90d455843bdab7c0ecb5d48e3b6c2f7b4882d3210a6bbad4304c',
             url='https://bioconductor.org/packages/3.7/data/annotation/src/contrib/GenomeInfoDbData_1.1.0.tar.gz')
     version('0.99.0', sha256='457049804bbd70f218c1c84067a23e83bdecb7304a3e4d8b697fee0b16dc1888')
-    depends_on('r@3.4.0:3.4.9', when='@0.99.0', type=('build', 'run'))
-    depends_on('r@3.5.0:3.5.9', when='@1.1.0', type=('build', 'run'))
+#    depends_on('r@3.4.0:3.4.9', when='@0.99.0', type=('build', 'run'))
+#    depends_on('r@3.5.0:3.5.9', when='@1.1.0', type=('build', 'run'))

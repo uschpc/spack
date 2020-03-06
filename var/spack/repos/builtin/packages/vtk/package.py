@@ -91,6 +91,7 @@ class Vtk(CMakePackage):
     depends_on('libpng')
     depends_on('libtiff')
     depends_on('zlib')
+    depends_on('libxt') # csul
 
     def url_for_version(self, version):
         url = "http://www.vtk.org/files/release/{0}/VTK-{1}.tar.gz"
