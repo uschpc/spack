@@ -15,7 +15,7 @@
 # -------------------------------------------------------------------------
 packages:
   all:
-    compiler: [gcc, intel, pgi, clang, xl, nag, fj]
+    compiler: [gcc, intel]
     providers:
       D: [ldc]
       awk: [gawk]
@@ -28,13 +28,13 @@ packages:
       glu: [mesa-glu, openglu]
       golang: [gcc]
       ipp: [intel-ipp]
-      java: [openjdk, jdk, ibm-java]
+      java: [openjdk, jdk]
       jpeg: [libjpeg-turbo, libjpeg]
       lapack: [openblas]
       mariadb-client: [mariadb-c-client, mariadb]
       mkl: [intel-mkl]
       mpe: [mpe2]
-      mpi: [openmpi, mpich]
+      mpi: [openmpi, mvapich2]
       mysql-client: [mysql, mariadb-c-client]
       opencl: [pocl]
       pil: [py-pillow]

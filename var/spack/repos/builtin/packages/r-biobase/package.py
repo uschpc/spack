@@ -14,6 +14,7 @@ class RBiobase(RPackage):
 
     homepage = "https://bioconductor.org/packages/Biobase"
     git      = "https://git.bioconductor.org/packages/Biobase.git"
+    url      = "https://bioconductor.org/packages/release/bioc/src/contrib/Biobase_2.46.0.tar.gz"
 
     version('2.44.0', commit='bde2077f66047986297ec35a688751cdce150dd3')
     version('2.42.0', commit='3e5bd466b99e3cc4af1b0c3b32687fa56d6f8e4d')
