@@ -35,7 +35,8 @@ compilers:
     target: x86_64
     modules: []
     environment: {}
-    extra_rpaths: []
+    extra_rpaths:
+      - /spack/apps/gcc/8.3.0/lib64
     flags: {}
     spec: gcc@8.3.0
 - compiler:
@@ -58,6 +59,7 @@ compilers:
     extra_rpaths:
      - /spack/apps/gcc/8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0
      - /spack/apps/linux-centos7-x86_64/gcc-8.3.0/intel-19.0.4-frbyni7nfxdptgal5vphokv6irfgzpvt/compilers_and_libraries_2019.4.243/linux/compiler/lib/intel64
+#    - /spack/apps/linux-centos7-x86_64/gcc-8.3.0/intel-19.0.4-frbyni7nfxdptgal5vphokv6irfgzpvt/compilers_and_libraries_2019.4.243/linux/compiler/include/intel64
 #   flags:
 #     cflags: -axCOMMON-AVX512,MIC-AVX512,CORE-AVX512,CORE-AVX2,AVX
 #     cxxflags: -axCOMMON-AVX512,MIC-AVX512,CORE-AVX512,CORE-AVX2,AVX
@@ -78,6 +80,7 @@ compilers:
     extra_rpaths:
      - /spack/apps/gcc/8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0
      - /spack/apps/linux-centos7-x86_64/gcc-8.3.0/intel-18.0.4-zuj3tqndcsnx744e26rbde2hbsgb3r6z/compilers_and_libraries_2018.5.274/linux/compiler/lib/intel64
+#    - /spack/apps/linux-centos7-x86_64/gcc-8.3.0/intel-18.0.4-zuj3tqndcsnx744e26rbde2hbsgb3r6z/compilers_and_libraries_2018.5.274/linux/compiler/include/intel64
 #   flags:
 #     cflags: -axCOMMON-AVX512,MIC-AVX512,CORE-AVX512,CORE-AVX2,AVX
 #     cxxflags: -axCOMMON-AVX512,MIC-AVX512,CORE-AVX512,CORE-AVX2,AVX
@@ -91,3 +94,20 @@ compilers:
       fc: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/intel-18.0.4-zuj3tqndcsnx744e26rbde2hbsgb3r6z/bin/ifort
     spec: intel@18.0.4
     target: x86_64
+- compiler:
+    paths:
+      cc: /spack/apps/pgi/2020_207/Linux_x86_64/20.7/compilers/bin/pgcc
+      cxx: /spack/apps/pgi/2020_207/Linux_x86_64/20.7/compilers/bin/pgc++
+      f77: /spack/apps/pgi/2020_207/Linux_x86_64/20.7/compilers/bin/pgfortran
+      fc: /spack/apps/pgi/2020_207/Linux_x86_64/20.7/compilers/bin/pgfortran
+    operating_system: centos7
+    target: x86_64
+    modules: []
+    environment: {}
+    extra_rpaths: []
+    flags:
+    flags:
+      cflags: -O2
+      cxxflags: -O2
+      fflags: -O2
+    spec: pgi@20.7

@@ -17,9 +17,12 @@ class Gmt(Package):
     homepage = "http://gmt.soest.hawaii.edu/"
     url      = "https://github.com/GenericMappingTools/gmt/archive/5.4.4.tar.gz"
 
+    version('6.1.1', sha256='9706ffa858a98bb1b97162e3887aa03c6c746017a274951e94a6341a59efad12')
     version('5.4.4', sha256='b593dfb101e6507c467619f3d2190a9f78b09d49fe2c27799750b8c4c0cd2da0')
     version('4.5.9', sha256='9b13be96ccf4bbd38c14359c05dfa7eeeb4b5f06d6f4be9c33d6c3ea276afc86',
             url='ftp://ftp.soest.hawaii.edu/gmt/legacy/gmt-4.5.9.tar.bz2')
+    version('4.5.18', sha256='27c30b516c317fed8e44efa84a0262f866521d80cfe76a61bf12952efb522b63', 
+            url='ftp://ftp.soest.hawaii.edu/gmt/gmt-4.5.18-src.tar.bz2')
 
     variant('pcre', default=False, description='Enable the PCRE interface')
     variant('gdal', default=False, description='Enable the GDAL interface')

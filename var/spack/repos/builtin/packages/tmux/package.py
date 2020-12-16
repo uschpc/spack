@@ -38,4 +38,5 @@ class Tmux(AutotoolsPackage):
         return (None, flags, None)
 
     def configure_args(self):
-        return ['LIBTINFO_LIBS=-lncurses']
+        #return ['LIBTINFO_LIBS=-lncurses']
+        return ['']

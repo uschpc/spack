@@ -4,4 +4,4 @@ config:
     lmod: /spack/apps/lmod
   build_stage: /build
   build_jobs: 8
-
+  checksum: true

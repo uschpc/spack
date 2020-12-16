@@ -5,6 +5,189 @@ packages:
       gcc@8.3.0: /spack/apps/gcc/8.3.0
       gcc@9.2.0: /spack/apps/gcc/9.2.0
     buildable: False
+  bowtie2:
+    paths:
+      bowtie2@2.3.5.1%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/bowtie2-2.3.5.1-fpu35rx2jqgv2y7kkxawweqv3fzy53gt/
+  libtiff:
+    paths:
+      libtiff@4.0.10%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/libtiff-4.0.10-ird6lyk2kk7c5aumxivzass4hfiv3bwb/
+  libfontenc:
+    paths:
+      libfontenc@1.1.3%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/libfontenc-1.1.3-mwqimfvpi7dpvqjcg3zc6ez62f6rtjoa/
+  pixman:
+    paths:
+      pixman@0.38.4%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/pixman-0.38.4-7zl43po37cma2nbshyk65h6wczzhutx3/
+  curl:
+    paths:
+      curl@7.68.0%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/curl-7.68.0-txmpdwwz3thgzsgxo6oule63b5lnybga/
+  gdbm:
+    paths:
+      gdbm@1.18.1%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/gdbm-1.18.1-vmpezmonnso5wltqaaz5huflaqswzvec/
+  star:
+    paths:
+      star@2.7.0e%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/star-2.7.0e-iilhwx7drpbewjlikobgbjoowwuh7zwa/
+  libpng:
+    paths:
+      libpng@1.6.37%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/libpng-1.6.37-xagwrmfxi5g25gukpaci4rr3omqjj2ov/
+  llvm:
+    paths:
+      llvm@9.0.1%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/llvm-9.0.1-yptf2eil2oulmytyqcs2urzwba4bgnuk/
+  fltk:
+    paths:
+      fltk@1.3.3%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/fltk-1.3.3-ixcxzemgdk46jv5cyefdz7ssodabfrt6/
+  pgi:
+    paths:
+      pgi@20.7: /spack/apps/pgi/2020_207/Linux_x86_64/20.7/compilers
+    buildable: False
+  libcerf:
+    paths:
+      libcerf@1.3%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/libcerf-1.3-eeswzrpg3jjwyawuwiqut6pqupnfbmb6/
+  rdma-core:
+    paths:
+      rdma-core@20%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/rdma-core-20-u3xrik4xivt5t5q74vv3f5lbvzuc526d/
+  libnl:
+    paths:
+      libnl@3.3.0%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/libnl-3.3.0-nnpdocrbzervpefd7ogjcm64dluqkfl3/
+  openssl:
+    paths:
+      openssl@1.1.1d%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/openssl-1.1.1d-d7a46dreyvyazopzpgcwerqvjfmy2grd/
+      openssl@1.1.1d%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/openssl-1.1.1d-c3qm3sp4ncd5j4sbvglqzifq3irfmtxe/
+  pkgconf:
+    paths:
+      pkgconf@1.6.3%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/pkgconf-1.6.3-r6r2m5f3ram56yqtx5p6pqiymnzoar66/
+  tcl:
+    paths:
+      tcl@8.6.8%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/tcl-8.6.8-oe5u6ftwzoy3y55ddbu57q2argcozhlm/
+  charmpp:
+    paths:
+      charmpp@6.10.2%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/charmpp-6.10.2/
+  papi:
+    paths:
+      papi@5.7.0%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/papi-5.7.0-gma6o6k3udtjt2ycvi6x5no5hsmlmwlu/
+  libtool:
+    paths:
+      libtool@2.4.6%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/libtool-2.4.6-wzr7weu3opudp4nanuqjy6wyge34rkss/
+  gsl:
+    paths:
+      gsl@2.5%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/gsl-2.5-kgozsqy4vqz5x55fu6pha2gq7fqmjayr/
+  cuda:
+    paths:
+      cuda@10.1.243%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/cuda-10.1.243-ti55aznlgai3utc7jwrryt2ykxoiz3bb/
+      cuda@10.2.89%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/cuda-10.2.89-knz2qolpsp7nkkvcwkdfv6bkmu3adpe4/ 
+  libuuid:
+    paths:
+      libuuid@1.0.3%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/libuuid-1.0.3-6qzc7rcpwmmxjlnoeguf5vy2ogvx7soc/
+  sqlite:
+    paths:
+      sqlite@3.30.1%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/sqlite-3.30.1-law2rzqeabsqggz3c74aydhnkjsozab2/
+      sqlite@3.30.1%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/sqlite-3.30.1-uym5du2waswjfk6ejlmfexjqgog7npwo/
+  expat:
+    paths:
+      expat@2.2.9%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/expat-2.2.9-6tz33utlyhkr7vltxi5qdqvgr7vbvf2u/
+  intel-parallel-studio:
+    paths:
+      intel-parallel-studio@cluster.2019.5%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/intel-parallel-studio-cluster.2019.5-ifegaz7supcjp2ghbnzxlpxdv3mlgqa5/
+  numactl:
+    paths: 
+      numactl@2.0.12%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/numactl-2.0.12-srskvkwjbqaetsle6z2qc3x4qpx5nafy/
+      numactl@2.0.12%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/numactl-2.0.12-aj6bh6tdfstoffevqs5mybivejffnkq6/
+  binutils:
+    paths:
+     # binutils@2.33%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/binutils-2.33.1-pnd4v4v43imovxfxr7innzbzd5v7zzqe/ 
+      binutils@2.32%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/binutils-2.32-zuk6ds25bx64jalqgniiflnpibw55eap/
+      binutils@2.32%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/binutils-2.32-t2cgqnucrb7sgno3rbtoowtpfkr5k6s2/
+  intel-tbb:
+    paths:
+      intel-tbb@2019.4%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/intel-tbb-2019.4-xbxzdgaxqqvn7v7vkpsruccfda2ca6zg/
+      intel-tbb@2019.4%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/intel-tbb-2019.4-nmha3ebjlvyqcnm437jpa5qwhlp7a6rp/
+  libsigsegv:
+    paths:
+      libsigsegv@2.12%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/libsigsegv-2.12-ynkqvtheave3m7j6bxc2oohmjf5f7xxr/
+  libx11:
+    paths:
+      libx11@1.6.7%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/libx11-1.6.7-m3wjo2mkr4drjzzocloaute3yrfneuen/
+  automake:
+    paths:
+      automake@1.16.1%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/automake-1.16.1-47p6oqslqn57zdahkzza2znc6ycmph4z/
+      automake@1.16.1%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/automake-1.16.1-4h2g7c4ahn6snxkndrruy6jfpfkjuriy/
+      automake@1.16.1%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/automake-1.16.1-7g7dg752e37jrbjpvtpzrls2ecqfyt4p/
+  help2man:
+    paths:
+      help2man@1.47.11%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/help2man-1.47.11-oakotp5fe4rtuofgjhqoe4xfqa4c3fyi/
+  texinfo:
+    paths:
+      texinfo@6.5%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/texinfo-6.5-u53daj55lhtcfveikvvnbex2wkr64gz7/
+  libxcb:
+    paths:
+      libxcb@1.13%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/libxcb-1.13-dpw654lu5zlbhzplbpzx7hwknz7hgm5s/
+  pcre:
+    paths:
+      pcre@8.42%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/pcre-8.42-tcaagpxhjac6pkcmkhkvufjypfsfotqv/
+      pcre@8.43%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/pcre-8.43-7zvzwwwvwfhun3au4qpaieyr2qsyv5aw/
+  readline:
+    paths:
+      readline@8.0%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/readline-8.0-odh3n6nbrw6ffkpsjcnwpv7tlyxpregx/
+      readline@8.0%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/readline-8.0-b6475hljd2oi6q4hg53idqa7m63wc6ko/
+  ncurses:
+    variants: +termlib +symlink
+    paths:
+      ncurses@6.1%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/ncurses-6.1-akiyo4qrgzlzxw3hggkc42nvv7hz2evj/
+      ncurses@6.1%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/ncurses-6.1-ktkurgldbb6ly3x5ktiu7q7cbrrupk6c/
+      ncurses@6.1%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/ncurses-6.1-ysktviuwzmfcuhbzi3p6f5wb4boyadud/
+  cmake:
+    paths:
+      cmake@3.15.4%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/cmake-3.15.4-yrwqwvr2qkrg535kzxmpxleiq4xpbmv3/
+      cmake@3.9.6%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/cmake-3.9.6-ilhxxvja35wgj26abirmbzlhoakxroep/
+      cmake@3.15.4%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/cmake-3.15.4-yufqekvvry3t6uwyl73hu6ucjrfgjqz2/
+      cmake@3.15.4%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/cmake-3.15.4-hpcopx3pekkaxar5tyfqe5n56hzsfgxz/
+      cmake@3.16.2%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/cmake-3.16.2-ejzgeuxnaazwznsodm7t422o5mgubobq/
+      cmake@3.15.4%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/cmake-3.15.4-clvys67wphl7l4svwa52edvlkucaz2uv/
+  htslib:
+    paths:
+      htslib@1.9%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/htslib-1.9-4zsx4qptohikx7oxoyefigbjkcnfn7vx/
+  autoconf:
+    paths:
+      autoconf@2.69%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/autoconf-2.69-oiaydkoo5gzntx6awnofbcijappu3ccp/
+      autoconf@2.69%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/autoconf-2.69-mgwuzgzp7wadevk3dgufmm5bru6z4dvw/ 
+      autoconf@2.69%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/autoconf-2.69-zosjqtwj2wqqpai2baytuaclspaq6r7f/
+      autoconf@2.69%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/autoconf-2.69-ytaohc42bwrra5iaycvumb5l3efli6lw/
+# m4:
+#   paths:
+#     m4@1.4.18%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/m4-1.4.18-2etyl7dp5lafzyn6vdekumx3hhuuwmjo/
+#     m4@1.4.18%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/m4-1.4.18-55dtmuz7gzbcxqsw3vanrm5izxnkqnqo/
+#     m4@1.4.18%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/m4-1.4.18-lkyedte2zhxyu7ymtl4e3tmo366msxv7/
+  jellyfish:
+    paths:
+      jellyfish@2.3.0%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/jellyfish-2.3.0-2hxlzz3vnltdhpkuftkitmjxaptqxyzg/
+  openjdk:
+    paths:
+      openjdk@11.0.2%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/openjdk-11.0.2-5uvwmjo2g47bny6zoxn24pbaz627ueup/
+  py-cutadapt:
+    paths:
+      py-cutadapt@2.5%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/py-cutadapt-2.5-o43kwqbwmneyr2dtqmraf737esmgupr4/
+  py-dnaio:
+    paths:
+      py-dnaio@0.3%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/py-dnaio-0.3-l3xhzpk2cpuxyelclyhpjxryjpb3kkem/
+  py-xopen:
+    paths:
+      py-xopen@0.8.2%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/py-xopen-0.8.2-if6ufbgj7xno5vyblblvdrp7xuwvfrya/
+  libbsd:
+    paths:
+      libbsd@0.9.1%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/libbsd-0.9.1-m2njiwj5ab65wg6axyx4srul2fxfl4gu/
+# samtools:
+#   paths:
+#     samtools@1.9@intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/samtools-1.9-3kzxzcntf4kjt42ubrcrqmq4x2g6olsk/
+  zlib:
+    paths:
+      zlib@1.2.11%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/zlib-1.2.11-dp3wfr26pumq5x4dltujahr4qse4agnk/
+      zlib@1.2.11%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/zlib-1.2.11-kadtr5dbdiqycyb56ezuv43fdsluyjry/
+      zlib@1.2.11%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/zlib-1.2.11-j3zdmzqsbyenjda44kvkceohj352n5ga/
+  perl:
+    paths:
+      perl@5.30.1%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/perl-5.30.1-hrnelgolwrunau5sesq3phgccj5uqy3h/
+      perl@5.30.0%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/perl-5.30.0-h7kut76uqexh6gjzsaciqqyr4rtimzeg/
+      perl@5.30.0%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/perl-5.30.0-54xleufbu6ogn4p6o2bdtzn6ki7gm3lo/
+      perl@5.30.0%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/perl-5.30.0-nfz6ch3hhztyiibeypgpgyutt5mgyqoy/
   hmmer:
     paths:
       hmmer@3.2.1%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/hmmer-3.2.1-lvroyvqqiqb5lqv6eyhiqzqjc2tbm45i/
@@ -15,6 +198,7 @@ packages:
     paths:
       pmix@3.1.3%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/pmix-3.1.3-uyqjus7vp5o63m2im6yfb4umtzk3rmox/
       pmix@3.1.3%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/pmix-3.1.3-ru5szwdi4srpujv5zipockvzlno4dldf/
+      pmix@3.1.3%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/pmix-3.1.3-kiung7r5cqf4ixytpb665fxqypsmmbyr/
   libfabric:
     paths:
       libfabric@1.6.2%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/libfabric-1.6.2-hjs27ktp3mcwrmzswpfyebs7xeiiqokk/
@@ -22,29 +206,40 @@ packages:
       libfabric@1.6.2%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/libfabric-1.6.2-wbaokhzuf4bx3li3rrjd3u66gu4w5ruc/
       libfabric@1.6.2%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/libfabric-1.6.2-bnq7o336qpcbfkjgvxh22hrsv7wmivw6/
   ucx:
+    variants: +thread_multiple
     paths:
-      ucx@1.6.0%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/ucx-1.6.0-ehakwwxf2xtznscl4fyo5dn6w56524yf/
+#     ucx@1.6.0%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/ucx-1.6.0-ehakwwxf2xtznscl4fyo5dn6w56524yf/
+      ucx@1.6.1%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/ucx-1.6.1-qbygcxo7gev43rjkqxsnkveufjrkmiag/
+      ucx@1.8.0%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/
   hwloc:
     paths:
-      hwloc@1.11.11%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/hwloc-1.11.11-5n2bvj5ukqxznu7acbczjcux6gmchpie/
+      hwloc@1.11.11%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/hwloc-1.11.11-ip43skzgvi2mrk2tb4dmqqk2mgdwgyry/ 
       hwloc@1.11.11%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/hwloc-1.11.11-vryyuzbbdkwbsrttszx6umm2sqnqpxkv/
+      hwloc@2.0.2%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/hwloc-2.0.2-xuwl76trtorvllu2r25ph6654h2wgz2o/
+      hwloc@1.11.11%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/hwloc-1.11.11-enjcz6lbwjrfbpzeskhst3ie3bn5gpv5/
       hwloc@1.11.11%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/hwloc-1.11.11-rieoq7seyya5ynmtcvujldd6xanlysid/
       hwloc@1.11.11%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/hwloc-1.11.11-lxw3zarlgv3rsvwsvh7g56tmm3q566i2/
   mpich:
     paths:
-#     mpich@3.3.1%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/mpich-3.3.1-3j5hvshrgpkaog7bzqo67ykhvwcwlo4e/
-#     mpich@3.3.1%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/mpich-3.3.1-bpreuj77rixxqi4wgq6pn23p6tby7cjt/
+      mpich@3.3.1%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/mpich-3.3.1-3j5hvshrgpkaog7bzqo67ykhvwcwlo4e/
+      mpich@3.3.1%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/mpich-3.3.1-bpreuj77rixxqi4wgq6pn23p6tby7cjt/
       mpich@3.3.1%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/mpich-3.3.1-7tddy5spdidnyydv2f3ofozprsxkc5dt/
+      mpich@3.3.2%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/mpich-3.3.2-qyeg4vf3bbbd7ud6zy2elwukaneiazqw/
+#     mpich@3.3.2%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/mpich-3.3.2-bcbl7krc5pntscaavrnd64bl3xyc2p2x/
+      mpich@3.3.2%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/mpich-3.3.2-kl3y7jot6ansiyp4hjccwxhxwkhljhsw/
   intel-mpi:
     paths:
-      intel-mpi@2019.4.243%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/intel-mpi-2019.4.243-n2oh3ij5az3lzc3oekqjgdcdcmgaaltb/compilers_and_libraries_2019.4.243/linux/mpi/intel64/
-      intel-mpi@2019.4.243%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/intel-mpi-2019.4.243-vkfr22eguxfs32iad2m2sibjboshuidv/compilers_and_libraries_2019.4.243/linux/mpi/intel64/
-  scotch:
-    paths:
-      scotch@6.0.6-mpi%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/scotch-6.0.6-4mnec5ylek2gvdhsly5mibjh23kg4q2p/
-# bowtie:
+      intel-mpi@2019.4.243%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/intel-mpi-2019.4.243-n2oh3ij5az3lzc3oekqjgdcdcmgaaltb/
+      intel-mpi@2019.4.243%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/intel-mpi-2019.4.243-vkfr22eguxfs32iad2m2sibjboshuidv/
+      intel-mpi@2019.4.243%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/intel-mpi-2019.4.243-ew65ucv2zip25eirvhkxwn7es2bzozto/
+# scotch:
 #   paths:
-#     bowtie@1.2.3%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/bowtie-1.2.3-y7shrg24zgu2jlgmxj3cdskjg45f3h6k/
+#     scotch@6.0.6-mpi%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/scotch-6.0.6-4mnec5ylek2gvdhsly5mibjh23kg4q2p/
+#     scotch@6.0.6%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/scotch-6.0.6-c6vgmfamaruyctuanvkstuodt6qbbgqd/
+  bowtie:
+    paths:
+      bowtie@1.2.3%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/bowtie-1.2.3-y7shrg24zgu2jlgmxj3cdskjg45f3h6k/
+      bowtie@1.2.3%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/bowtie-1.2.3-zmwqpzrg3fxhgrnkn2t6xhmfarb73pj2/
 # gnuplot:
 #   paths:
 #     gnuplot@5.2.7%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/gnuplot-5.2.7-mjblhn35flnh7ldbw5pxgzsgrse7flcm/
@@ -52,13 +247,19 @@ packages:
     paths:
 #     netlib-scalapack@2.0.2%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/netlib-scalapack-2.0.2-cshik7wemvnzjdjytwob5q2kg4viff5m/ 
 #     netlib-scalapack@2.0.2%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/netlib-scalapack-2.0.2-wefowxrarwvgv447s6275sn4gt2cmh33/
-      netlib-scalapack@2.0.2-libfabric%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/netlib-scalapack-2.0.2-vphrxbeyoiabw2f5wobmiqihwiulfzn3/
+#     netlib-scalapack@2.1.0%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/netlib-scalapack-2.1.0-lpples35lanrlx6n4pcorc73kg4rumtp/
+#     netlib-scalapack@2.1.0-mpich%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/netlib-scalapack-2.1.0-ke4npvnucueac5oh4zhs3kfiadyvnhbh/
+#     netlib-scalapack@2.1.0-openmpi%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/netlib-scalapack-2.1.0-7kpsyvmouzmay3vsbdiy72case3jaepu/
+#     netlib-scalapack@2.0.2-libfabric%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/netlib-scalapack-2.0.2-vphrxbeyoiabw2f5wobmiqihwiulfzn3/
+#     netlib-scalapack@2.1.0-openmpi%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/netlib-scalapack-2.1.0-7kpsyvmouzmay3vsbdiy72case3jaepu/
       netlib-scalapack@2.0.2-mpich%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/netlib-scalapack-2.0.2-vtg2435ngdnzzkuqsu3xpdso6w6s3xei/
-      netlib-scalapack@2.0.2-libfabric%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/netlib-scalapack-2.0.2-6zzrivt74fn42gwkbovbwnqfydmmi5dx/
-      netlib-scalapack@2.0.2-libfabric%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/netlib-scalapack-2.0.2-sgbgzpy6r3kxu2ixudautlsup2dxq6xj/
-# py-cython:
-#   paths:
-#     py-cython@0.29.13%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/py-cython-0.29.13-xrqsrrlbloa4myvusc5nv2dwsgaampar/
+#     netlib-scalapack@2.0.2-libfabric%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/netlib-scalapack-2.0.2-6zzrivt74fn42gwkbovbwnqfydmmi5dx/
+#     netlib-scalapack@2.0.2-libfabric%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/netlib-scalapack-2.0.2-sgbgzpy6r3kxu2ixudautlsup2dxq6xj/
+#     netlib-scalapack@2.1.0-verbs%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/netlib-scalapack-2.1.0-hzizgfcnmug5tmch4jg2qcqey5byw6o6/
+  py-cython:
+    paths:
+      py-cython@0.29.13%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/py-cython-0.29.13-xrqsrrlbloa4myvusc5nv2dwsgaampar/
+      py-cython@0.29.13%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/py-cython-0.29.13-csbvo6dkzu4hgtkhazoyvu5hjswuwgz2/
   metis:
     paths:
 #     metis@5.1.0%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/metis-5.1.0-wwzdqlzi26onn7cybdwhtwqseua3plgx/
@@ -66,47 +267,65 @@ packages:
       metis@5.1.0%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/metis-5.1.0-wr6ih5k3zpmck2ywkbs3xgtdovrz3ps7/
   parmetis:
     paths:
-#     parmetis@4.0.3%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/parmetis-4.0.3-3whnnsydxlguhs6aaieztgazprfvdy6e/
+      parmetis@4.0.3%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/parmetis-4.0.3-3whnnsydxlguhs6aaieztgazprfvdy6e/
       parmetis@4.0.3%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/parmetis-4.0.3-ekmy3344few6jjjxa4sqhg6wxf3mfv3k/
-# pango:
-#   paths: 
+      parmetis@4.0.3-openmpi%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/parmetis-4.0.3-jthlmcvppyl7ibr7zl4habymx4bbkwmk/
+#  pango:
+#    paths: 
 #     pango@1.41.0%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/pango-1.41.0-6ryhm7tcsy3j6hjm77ckpvnddc2mpas4/
-# harfbuzz:
-#   paths:
-#     harfbuzz@2.3.1%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/harfbuzz-2.3.1-wt7lj42n2acjycjdeh5z355avhwzklsc/
-# gobject-introspection:
-#   paths:
+#     pango@1.41.0%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/pango-1.41.0-ts335os6w4tutjlshm4lm4glzk6spbpo/
+  harfbuzz:
+    paths:
+      harfbuzz@2.3.1%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/harfbuzz-2.3.1-wt7lj42n2acjycjdeh5z355avhwzklsc/
+      harfbuzz@2.3.1%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/harfbuzz-2.3.1-jjcwnfanqkd6t4aobxvr7d7ffbcfdv24/
+  gobject-introspection:
+    paths:
 #     gobject-introspection@1.56.1%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/gobject-introspection-1.56.1-c7hkpygrck34cysp3ngpuiqoolz4p5gu/
-# cairo:
-#   paths:
+      gobject-introspection@1.56.1%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/gobject-introspection-1.56.1-v2m526skuvzolrcfzki27gfrauitna47/
+#  cairo:
+#    variants: +png +pdf +X +ft +gobject
+#    paths:
 #     cairo@1.16.0%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/cairo-1.16.0-5soqxhvqqse6yablnxonhhx5eucftrtz/
-# glib:
-#   paths:
+#     cairo@1.16.0%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/cairo-1.16.0-vjvx7zpubixy22z6g2wvpwpmogqltcth/
+  glib:
+    paths:
 #     glib@2.56.3%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/glib-2.56.3-tinmb4efqrk3o7vknx3sy2lb4jqljca2/
+      glib@2.56.3%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/glib-2.56.3-qjvhj3gwrbixzckvzxjsafhaksp7d24o/
+      glib@2.56.3%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/glib-2.56.3-yjp6ihxpg26wcu5zmrohzg2efmguzc4q/
 # fontconfig:
 #   paths: 
 #     fontconfig@2.12.3%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/fontconfig-2.12.3-rjrsyuq3lhwdbbwaro7kxvl5dkmm2yom/
   py-setuptools:
     paths:
       py-setuptools@41.4.0%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/py-setuptools-41.4.0-f553tulwmvrebkwq5wwh7oishzhxmpwd/
-      py-setuptools@41.4.0%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/py-setuptools-41.4.0-plc5pndz6bplxofvu7vxopiqczyjj33t/
+#     py-setuptools@39.2.0%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/py-setuptools-39.2.0-s2xu3hg7y6xgeiztcyokkhzeam4yn4xr/
+#     py-setuptools@41.4.0%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/py-setuptools-41.4.0-plc5pndz6bplxofvu7vxopiqczyjj33t/
+      py-setuptools@41.4.0%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/py-setuptools-41.4.0-hfsrzcz3hdnksrozfzwjm4f6i6cwdauu/
       py-setuptools@41.4.0%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/py-setuptools-41.4.0-zm57ek4fb4jul3mhrbv5iyo246klgtbz/
       py-setuptools@41.4.0%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/py-setuptools-41.4.0-gcm6wsybdssxcyrlzpqtpajrlkttftcw/
   python:
     paths:
-      python@2.7.16%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/python-2.7.16-i7xfrgej5guxb2jezrtpbtyk62irdxdr/
-      python@3.6.8%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/python-3.6.8-dkidnmzp53phfdjsqgcesdn44dy5relx/
+      python@3.7.6%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/python-3.7.6-dd2am3dyvlpovhd4rizwfzc45wnsajxf/
+#     python@2.7.16%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/python-2.7.16-i7xfrgej5guxb2jezrtpbtyk62irdxdr/
+      python@3.7.6%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/python-3.7.6-hjn7knrm2bjyxtvsddl44j6uzossppyf/
+#      had to change below python to above during python reinstall on build - csul
+#      python@3.7.6%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/python-3.7.6-dgvs3vz2evqsavzpuyu23p7qoswsfpiw/
+#     python@3.6.8%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/python-3.6.8-dkidnmzp53phfdjsqgcesdn44dy5relx/
 #     python@3.7.4%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/python-3.7.4-aglk3ur27supjnsfkpxnvjat4fki7vac/
-      python@3.7.4%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/python-3.7.4-ozqsl2wcai2e5ifkqtczsusp2x2jszr7/
-      python@3.7.4%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/python-3.7.4-s5t2x4glh6kouetvub3u6tqaylgkasft/
+#      python@3.7.4%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/python-3.7.4-ozqsl2wcai2e5ifkqtczsusp2x2jszr7/
+#      python@3.7.4%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/python-3.7.4-s5t2x4glh6kouetvub3u6tqaylgkasft/
   gettext:
     paths:
 #     gettext@0.20.1%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/gettext-0.20.1-wlcmvuck3vj7iwpxugtudflwdtkhs5xr/
+      gettext@0.20.1%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/gettext-0.20.1-xk2yprlbovytt6sd54xjhbzsz2erz7gg/
+      gettext@0.20.1%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/gettext-0.20.1-2pbjhl3dvjbyf2l3spvxw5z2id7mn24b/
       gettext@0.20.1%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/gettext-0.20.1-oddcroef5ahrffds5fbycjsuh5wmub4m/
       gettext@0.20.1%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/gettext-0.20.1-dxgy7d7lociy73qfgfxz2d4a2zfu4qbo/
   libxml2:
     paths:
 #     libxml2@2.9.9%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/libxml2-2.9.9-jjfkna5klp5qinmmnoq6barlxwuck3f7/
+      libxml2@2.9.9%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/libxml2-2.9.9-uddnuh5mjqp2542gojscfrecbi7p4vku/
+      libxml2@2.9.9%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/libxml2-2.9.9-cmfw4iwbnzldnmedp2br3hiytcja5z7k/
       libxml2@2.9.9%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/libxml2-2.9.9-rj2f3o6xepnlsygxxa5t6uznrqxzuhll/
       libxml2@2.9.9%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/libxml2-2.9.9-guomt4ldnvd7pu2jpcjxqptudgvqiogs/
 #     libxml2@2.7.8%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/libxml2-2.7.8-xxgbaukqz2gurnbehsr22n2gbqfkxghs/
@@ -117,75 +336,98 @@ packages:
       py-numpy@1.16.5%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/py-numpy-1.16.5-s3vw4r56otk6y4gyqqx4gur534w3hxml/
 #     py-numpy@1.17.3%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/py-numpy-1.17.3-je6ksduup6n2oox5jpwhlknglxvehfqp/
       py-numpy@1.17.3%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/py-numpy-1.17.3-weiwmkrp3qndpe3jvjyllnj7gjwb62yz/
-# suite-sparse:
-#   paths:
-#     suite-sparse@5.3.0%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/suite-sparse-5.3.0-dzixo6bbtoezqmxx2wjbokrpof3zcvbl/
+  suite-sparse:
+    paths:
+      suite-sparse@5.3.0%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/suite-sparse-5.3.0-dzixo6bbtoezqmxx2wjbokrpof3zcvbl/
+      suite-sparse@5.3.0%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/suite-sparse-5.3.0-uzlmzp2wmjlams6dhpdicmxi2n3vlfea/
   boost:
     paths:
+      boost@1.73.0%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/boost-1.73.0-udmhvmsji6pulsk4uwldoieaiofu2tmh/
+      boost@1.72.0-openmpi%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/boost-1.72.0-ttywdjzouzzt3h4etx5lcdih7cg7yxtn/
 #     boost@1.70.0-mpi%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/boost-1.70.0-nsqqpjwgpilfv7lqg6mgsyzzdssvvnos/
-      boost@1.70.0%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/boost-1.70.0-qol7nsswpusnhizr5vfhrbop4a73ta5p/
+#     boost@1.70.0%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/boost-1.70.0-qol7nsswpusnhizr5vfhrbop4a73ta5p/
       boost@1.70.0%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/boost-1.70.0-4kovjkilul6mrytjgjsmxkl5pfg4ccn4/
       boost@1.70.0%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/boost-1.70.0-vnc4wege64uy2l4dgdszprxmlf7jar4p/
-      boost@1.70.0%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/boost-1.70.0-ndry3arsbxntjq4wieu3qbepgjun5t2a/
+#     boost@1.70.0%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/boost-1.70.0-ndry3arsbxntjq4wieu3qbepgjun5t2a/
 #     boost@1.70.0-libfabric%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/boost-1.70.0-c3fqdrt472v6csfw6ab4ucisbsg7ul5j/
-      boost@1.66.0%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/boost-1.66.0-o6byrfwdkoffhce4vy5rcpuw46rdvtuk/
-      boost@1.54.0%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/boost-1.54.0-mrzizzduqhnomcfmzfjh3rohdzvo4bai/
+#     boost@1.66.0%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/boost-1.66.0-o6byrfwdkoffhce4vy5rcpuw46rdvtuk/
+#     boost@1.54.0%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/boost-1.54.0-mrzizzduqhnomcfmzfjh3rohdzvo4bai/
 #     boost@1.54.0%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/boost-1.54.0-hrtjmshhztovcksgczt5qm2cykxxxumk/
       boost@1.54.0%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/boost-1.54.0-rzb3qhdlsk6bnl32gpot4ubpwjna3ofu/
-      boost@1.54.0%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/boost-1.54.0-26rfucf5aczrqesqp7rats2afn76ot6p/
+#     boost@1.54.0%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/boost-1.54.0-26rfucf5aczrqesqp7rats2afn76ot6p/
 #   buildable: False
   hdf5:
+#   variants: +hl +cxx
     paths:
 #     hdf5@1.10.5-mpi%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/hdf5-1.10.5-pdmgmhcfg6b5jpuicywpi6ordsnqhzs2/
       hdf5@1.10.5%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/hdf5-1.10.5-nnaux6tkuslhpfvu5vx4de54qpohogsq/
 #     hdf5@1.10.5%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/hdf5-1.10.5-tpbf5b2pmenp5vei4gmahl637qmznmce/
 #     hdf5@1.10.5%gcc@9.2.0:  /spack/apps/linux-centos7-x86_64/gcc-9.2.0/hdf5-1.10.5-mdt46da2vnpwpfflnccw6bz4kypurjgm/
-      hdf5@1.10.5-libfabric%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/hdf5-1.10.5-4otihzhsiretcxgb33bb6bm7y5jk6sxd/
+#     hdf5@1.10.6-openmpi%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/hdf5-1.10.6-puymiou7jgejeo55bpvi465oihv5nqq7/
+      hdf5@1.10.6-mpich%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/hdf5-1.10.6-k5cgep7hcle533e5cs36cmfnd3vlkvht/
+#     hdf5@1.10.5-libfabric%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/hdf5-1.10.5-4otihzhsiretcxgb33bb6bm7y5jk6sxd/
 #   buildable: False
   openblas:
+    variants: threads=openmp
     paths:
       openblas@0.3.7%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/openblas-0.3.7-hs2ky6gxa5nhovli7y3jhzot4ijawk24/ 
+      openblas@0.3.7%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/openblas-0.3.7-oqk2blycmpmtkovrflmk74cmnsv63q42
       openblas@0.3.7%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/openblas-0.3.7-w3qehlxxxtsab652l7kaa6wkse4r5add/
       openblas@0.3.7%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/openblas-0.3.7-s73jg5z3zs52uxytgygojvtlpbsfet2v/
       openblas@0.3.7%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/openblas-0.3.7-wwt5zf5dees72cftwutgfdkedb4y666t/
 #   buildable: False
   openmpi:
+#   variants: +cxx_exceptions fabrics=ucx +legacylaunchers +pmi schedulers=slurm ~sqlite3 +thread_multiple +vt ^slurm@19.05.5 +hwloc +ucx
     paths:
-      openmpi@4.0.2%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/openmpi-4.0.2-gp55jihu43c4pmwsqqu52gon4thyt5j5/
-      openmpi@4.0.2-slurm%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/openmpi-4.0.2-iatzeretzgkx55ebvg25wvrw6emmvpae/
-      openmpi@4.0.2-libfabric%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/openmpi-4.0.2-qulfe4og7cw4ydbdlfwv22pzu7q6kufd/
-      openmpi@4.0.1%gcc@8.3.0: /spack/apps/gcc-8.3.0/openmpi/4.0.1/
-      openmpi@4.0.2%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/openmpi-4.0.2-eztxwmunc5vrsfdgxtd57pjmf2ykskon/
-      openmpi@4.0.2-verbs%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/openmpi-4.0.2-b3clcokmhx526kbtdp6h4rnnnbkpfux7/
-      openmpi@4.0.2-libfabric%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/openmpi-4.0.2-tokkv2gzapgx3n2ul6j5lzpt2jz5hvkc/ 
-      openmpi@4.0.2%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/openmpi-4.0.2-w3h5xralaubiqqtizhqmik5ntzuijkqa/
-      openmpi@4.0.2%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/openmpi-4.0.2-v33g5qaua33c65lclvky52oy7jhsv7mn/
-      openmpi@4.0.2-libfabric%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/openmpi-4.0.2-6uytjuu2jiq7ajiloxgkxjixwbhus5di/
-      openmpi@4.0.2-libfabric%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/openmpi-4.0.2-2yop6x57umloyayyaylwpalcte4po7qf/
+#     openmpi@4.0.1%gcc@8.3.0: /spack/apps/gcc-8.3.0/openmpi/4.0.1/
+      openmpi@4.0.2%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/openmpi-4.0.2-wzyjseiy3f4asza3vkm4t5hd2juq5nzq/
+      openmpi@4.0.2%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/openmpi-4.0.2-ipm3dnvlbtxawpi4ifz7jma6jgr7mexq/
+#     openmpi@4.0.2%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/openmpi-4.0.2-w3h5xralaubiqqtizhqmik5ntzuijkqa/
+#     openmpi@4.0.2%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/openmpi-4.0.2-v33g5qaua33c65lclvky52oy7jhsv7mn/
+#     openmpi@4.0.2-libfabric%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/openmpi-4.0.2-6uytjuu2jiq7ajiloxgkxjixwbhus5di/
+#     openmpi@4.0.2-verbs%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/openmpi-4.0.2-pzknycjhr7nn5r55grdoy63ylgtg6azg/
+#     openmpi@4.0.2-libfabric%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/openmpi-4.0.2-2yop6x57umloyayyaylwpalcte4po7qf/
+      openmpi@4.0.2-verbs%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/openmpi-4.0.2/build_verbs/ 
     buildable: False
   mvapich2:
     paths:
-      mvapich2@2.3.1%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/mvapich2-2.3.1-cffj2h5ugmlso2lotyw7ixr37iarpi6y/
+#     mvapich2@2.3.1%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/mvapich2-2.3.1-cffj2h5ugmlso2lotyw7ixr37iarpi6y/
+      mvapich2@2.3.2%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/mvapich2-2.3.2-h3yasy5omk62iyoueey6tjms6dnwcsr2/
+      mvapich2@2.3.2%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/mvapich2-2.3.2-hkfh5khyttxg532trrntemczsxc2yrc5/
   slurm:
     paths:
-      slurm@19.05.5: /usr
+#      slurm@19.05.5: /usr
+      slurm@20.02.4: /usr
     buildable: False
-  julia:
+#  julia:
+#    paths:
+#      julia@1.0.5: /spack/apps/gcc-8.3.0/julia/1.0.5
+  gmt:
     paths:
-      julia@1.0.5: /spack/apps/gcc-8.3.0/julia/1.0.5
+      gmt@4.5.18%gcc@8.3.0+blas+fftw+gdal+lapack~pcre arch=linux-centos7-x86_64:  /spack/apps/linux-centos7-x86_64/gcc-8.3.0/gmt-4.5.18
   fftw:
     paths:
-      fftw@3.3.8%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/fftw-3.3.8-4sg66pvbdoeynl77ysxs66yrgwb4546n/
+#     fftw@3.3.8%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/fftw-3.3.8-4sg66pvbdoeynl77ysxs66yrgwb4546n/
+      fftw@3.3.8%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/fftw-3.3.8/build/
       fftw@3.3.8%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/fftw-3.3.8-enlpdnsjqktsjmy6tsdsxix23qcs64t7/
       fftw@3.3.8-mpi%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/fftw-3.3.8-jjekokcnpq2lzr7tyttm4bmal4bonfqy/
       fftw@3.3.8-mpich%gcc@4.9.4: /spack/apps/linux-centos7-x86_64/gcc-4.9.4/fftw-3.3.8-gwujqf4ooudqva3nm2qqw63rcy5ziwva/
-      fftw@3.3.8-mpi%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/fftw-3.3.8-dciugpq5kgkpwura47umuzj4avwpnfxm/
-      fftw@3.3.8-libfabric%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/fftw-3.3.8-yjh2nzkikfynnyimobn45ulrhybyhzym/
-      fftw@3.3.8%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/fftw-3.3.8-yaqvla7hqbh5fa64j4mwiqycuranpvlx/
+#     fftw@3.3.8-mpi%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/fftw-3.3.8-dciugpq5kgkpwura47umuzj4avwpnfxm/
+#     fftw@3.3.8-libfabric%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/fftw-3.3.8-yjh2nzkikfynnyimobn45ulrhybyhzym/
+#     fftw@3.3.8%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/fftw-3.3.8-yaqvla7hqbh5fa64j4mwiqycuranpvlx/
+      fftw@3.3.8-mpich%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/fftw-3.3.8-23fnhg7dls33263bdavemm6brqcaz2mp/
+#     fftw@3.3.8-mpich%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/fftw-3.3.8-dgjjn3zspmqtorol3j2tiwgvulqb4z63/
+#     fftw@3.3.8-openmpi%gcc@9.2.0: /spack/apps/linux-centos7-x86_64/gcc-9.2.0/fftw-3.3.8-qsaz5efr6fb557myd4wjoj4flgwpcwmv/
       fftw@3.2.2-libfabric%intel@18.0.4: /spack/apps/linux-centos7-x86_64/intel-18.0.4/fftw-3.2.2-noauoq5ibpkfaioopnpoefgromqll4ld/
-      fftw@3.2.2-libfabric%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/fftw-3.2.2-ts4vam2tiuusmjc4hb42tkuns25s4b3s/
+#     fftw@3.2.2-libfabric%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/fftw-3.2.2-ts4vam2tiuusmjc4hb42tkuns25s4b3s/
+      fftw@3.2.2-verbs%intel@19.0.4: /spack/apps/linux-centos7-x86_64/intel-19.0.4/fftw-3.2.2-mh2kby6p3akqn2h22v65nc7d77qir2ae/
+  r:
+    variants: +external-lapack +X ^cairo+X ^openblas
+    paths:
+      r@4.0.0%gcc@8.3.0: /spack/apps/linux-centos7-x86_64/gcc-8.3.0/r-4.0.0-jfy3icn4kexk7kyabcoxuio2iyyww3o7/
   all:
     target: [x86_64]
+    compiler: [intel, gcc, pgi]
     providers:
       awk: [gawk]
       blas: [openblas]
@@ -196,7 +438,7 @@ packages:
       lapack: [openblas]
       mkl: [intel-parallel-studio+mkl]
       mpe: [mpe2]
-      mpi: [openmpi, mvapich2]
+      mpi: [openmpi, mvapich2, intel-mpi, mpich]
       opencl: [pocl]
       openfoam: [foam-extend]
       pil: [py-pillow]
