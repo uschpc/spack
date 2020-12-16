@@ -95,6 +95,7 @@ class Vtk(CMakePackage):
     depends_on('eigen', when='@8.2.0:')
     depends_on('double-conversion', when='@8.2.0:')
     depends_on('sqlite', when='@8.2.0:')
+    depends_on('libxt') # csul
 
     def url_for_version(self, version):
         url = "http://www.vtk.org/files/release/{0}/VTK-{1}.tar.gz"

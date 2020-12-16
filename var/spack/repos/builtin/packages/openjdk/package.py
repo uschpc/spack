@@ -20,6 +20,8 @@ class Openjdk(Package):
             url="https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u202-b08/OpenJDK8U-jdk_x64_linux_openj9_8u202b08_openj9-0.12.0.tar.gz")
     version('1.8.0_40-b25', sha256='79e96dce03a14271040023231a7d0ae374b755d48adf68bbdaec30294e4e2b88',
             url='https://download.java.net/openjdk/jdk8u40/ri/jdk_ri-8u40-b25-linux-x64-10_feb_2015.tar.gz')
+    version("1.8.0_242-b08", sha256='f39b523c724d0e0047d238eb2bb17a9565a60574cf651206c867ee5fc000ab43',
+            url="https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u242-b08/OpenJDK8U-jdk_x64_linux_hotspot_8u242b08.tar.gz")
 
     provides('java@11', when='@11.0:11.99')
     provides('java@8', when='@1.8.0:1.8.999')

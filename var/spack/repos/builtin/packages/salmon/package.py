@@ -20,10 +20,10 @@ class Salmon(CMakePackage):
     version('0.8.2', sha256='299168e873e71e9b07d63a84ae0b0c41b0876d1ad1d434b326a5be2dce7c4b91')
 
     depends_on('tbb')
-    depends_on('jemalloc', 'build')
+    depends_on('jemalloc')
     depends_on('libiconv', 'build')
-    depends_on('libgff', 'build')
-    depends_on('boost@:1.66.0')
+    depends_on('libgff')
+    depends_on('boost')
 
     depends_on('curl', when='@0.14.1:')
 

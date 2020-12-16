@@ -31,9 +31,6 @@ class Libxc(AutotoolsPackage):
         return ("http://www.tddft.org/programs/libxc/"
                 "down.php?file={0}/libxc-{0}.tar.gz"
                 .format(version))
-
-=======
->>>>>>> 58d3b577652192347aa7263ef37a658f4938c5f7
     @property
     def libs(self):
         """Libxc can be queried for the following parameters:

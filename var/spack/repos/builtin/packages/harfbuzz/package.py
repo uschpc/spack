@@ -11,6 +11,8 @@ class Harfbuzz(AutotoolsPackage):
     homepage = "http://www.freedesktop.org/wiki/Software/HarfBuzz/"
     url      = "http://www.freedesktop.org/software/harfbuzz/release/harfbuzz-0.9.37.tar.bz2"
 
+    version('2.6.8', sha256='6648a571a27f186e47094121f0095e1b809e918b3037c630c7f38ffad86e3035')
+    version('2.4.0', sha256='b470eff9dd5b596edf078596b46a1f83c179449f051a469430afc15869db336f')
     version('2.3.1', sha256='f205699d5b91374008d6f8e36c59e419ae2d9a7bb8c5d9f34041b9a5abcae468')
     version('2.1.3', sha256='613264460bb6814c3894e3953225c5357402915853a652d40b4230ce5faf0bee')
     version('1.9.0', sha256='11eca62bf0ac549b8d6be55f4e130946399939cdfe7a562fdaee711190248b00')

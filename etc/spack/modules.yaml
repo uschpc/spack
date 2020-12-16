@@ -7,12 +7,14 @@ modules:
     hierarchy:
       - mpi
 #     - lapack
-    hash_length: 4
+    hash_length: 0
     whitelist:
       - gcc
       - intel
+      - pgi
     blacklist:
       - 'gcc@4.8.5'
+      - '%gcc@4.8.5'
     all:
       conflict:
         - '{name}'
@@ -21,8 +23,26 @@ modules:
         '^openblas': openblas
         '^netlib-lapack': netlib
         '^openmpi': openmpi
-      filter:
-        environment_blacklist: ['CPATH', 'LIBRARY_PATH']
+        '^cuda': cuda
       environment:
         set:
           '{name}_ROOT': '{prefix}'
+
+    binutils:
+      suffixes:
+        '+nls': nls
+
+    cudnn:
+      autoload: 'direct'
+    plink2:
+      autoload: 'direct'
+    gmt:
+      template: 'gmt_template.lua'
+    cellranger:
+      autoload: 'direct'
+
+    tmux:
+      template: 'tmux_template.lua'
+
+#     filter:
+#       environment_blacklist: ['CPATH', 'LIBRARY_PATH']

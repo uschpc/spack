@@ -38,3 +38,10 @@ class RIranges(RPackage):
     depends_on('r-s4vectors@0.19.11:', when='@2.16.0:', type=('build', 'run'))
 
     depends_on('r-s4vectors@0.21.9:', when='@2.18.3:', type=('build', 'run'))
+
+    depends_on('r-biocgenerics@0.21.1:', type=('build', 'run'), when='@2.10.5')
+    depends_on('r-biocgenerics@0.23.3:', type=('build', 'run'), when='@2.12.0')
+    depends_on('r-biocgenerics@0.25.3:', type=('build', 'run'), when='@2.14.10')
+    depends_on('r-s4vectors@0.13.17:', type=('build', 'run'), when='@2.10.5')
+    depends_on('r-s4vectors@0.15.5:', type=('build', 'run'), when='@2.12.0')
+    depends_on('r-s4vectors@0.18.2:', type=('build', 'run'), when='@2.14.10')

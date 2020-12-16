@@ -50,3 +50,4 @@ class RGenomicranges(RPackage):
     depends_on('r-iranges@2.15.12:', when='@1.34.0:', type=('build', 'run'))
 
     depends_on('r-iranges@2.17.1:', when='@1.36.1:', type=('build', 'run'))
+    depends_on('r-xvector@0.19.8:', when='@1.32.6', type=('build', 'run'))

@@ -275,8 +275,9 @@ class Python(AutotoolsPackage):
                 raise ValueError(
                     '+ucs4 variant not compatible with Python 3.3 and beyond')
 
-        if spec.satisfies('@3:'):
-            config_args.append('--without-ensurepip')
+        # We want pip
+        #if spec.satisfies('@3:'):
+        #    config_args.append('--without-ensurepip')
 
         if '+pic' in spec:
             config_args.append('CFLAGS={0}'.format(self.compiler.pic_flag))
@@ -937,3 +938,24 @@ class Python(AutotoolsPackage):
                 view.remove_file(src, dst)
             else:
                 os.remove(dst)
+    
+
+    @run_after('install')
+    def build_packages(self):
+        pip_name='/pip'
+        if self.spec.satisfies('@3:'):
+            pip_name += '3'
+        if self.spec.satisfies('@2:'):
+        # build pip manually?
+            #get_pip_path='/spack/spack/var/spack/repos/builtin/packages/python/get-pip.py'
+            #get_pip=Executable(get_pip_path)
+            #get_pip()
+            return
+
+
+        pip_path = self.spec.prefix.bin + pip_name +' install -r'
+        requirements_path='/spack/spack/var/spack/repos/builtin/packages/python/requirements.txt'
+        pip_install = Executable(pip_path)
+        #pip.add_default_arg('install -r ' + requirements_path)
+        pip_install(requirements_path)
+    
